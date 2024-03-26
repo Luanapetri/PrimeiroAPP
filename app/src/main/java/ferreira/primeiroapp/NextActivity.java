@@ -22,5 +22,6 @@ public class NextActivity extends AppCompatActivity {
         String textoDigitado = i.getStringExtra("texto"); //Pega o texto que foi informado
         TextView tvTexto = findViewById( R.id.tv_texto); //obtem textview
         tvTexto.setText(textoDigitado); // coloca para vizualização o texto digitado
+        //comentario que o prof pediu para teste
     }
 }
